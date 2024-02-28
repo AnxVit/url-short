@@ -83,5 +83,6 @@ func (s *Storage) GetURL(alias string) (string, error) {
 	if err != nil {
 		return "", fmt.Errorf("%s: %w", op, err)
 	}
+
 	return resURL, nil
 }
